@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-left: 3rem;
+    box-shadow: 5px 5px 20px red;
+    background-color: #faa307;
+}
+.navbar .navbar-brand{
+    color: black !important;
+}
+#navbarSupportedContent a{
+    color: black !important;
+    border-bottom: 2px solid transparent;
+    transition: transform 400ms;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid red;
+    transform: scale(0.99);
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+.container hr{
+    color: red;
+    
+    
+}
+.carousel-caption h3{
+    font-style:normal;
+    color:aqua;
+    font-weight: 400;
+    font-size: 40px;
+}
+/* -----------------------kits--------------------------------- */
